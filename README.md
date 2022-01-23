@@ -25,6 +25,18 @@ Elas constam no codigo também.
         ***************************************************************************
 ```
 
+## String em formato JSON a ser inserido
+
+```python
+{"init": "0x0A","bytes": "0x09","frame": "0x01","textMessage": "48 65 6C 6C 6F 20 57 6F 72 6C 64","crc": "0xA1","end": "0xA2"}
+
+{"init": "0x0A","bytes": "0x09","frame": "0x01","textMessage": "31323334","crc": "0xA1","end": "0xA2"}
+
+{"init": "0x0A","bytes": "0x09","frame": "0x03","date": "416D65726963612F53616F5F5061756C6F","crc": "0xA1","end": "0xA2"}
+
+{"init": "0x0A","bytes": "0x20","frame": "0xA2","idade": "0x20","peso": "0x7A","altura": "0xC3","tamanhoNome": "0x0C","nome": "0x4D 0x69 0x63 0x68 0x65 0x6C 0x20 0x52 0x65 0x69 0x70 0x73","crc": "0xA1","end": "0xA2"}
+```
+
 ## Requisitos
 
 ```python
