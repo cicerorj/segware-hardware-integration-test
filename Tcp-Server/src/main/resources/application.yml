@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+      settings:
+        web-allow-others: true
+  datasource:
+    url: jdbc:h2:mem:~/segware
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
